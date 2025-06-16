@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: grey;
+}
+
+.container{
+    max-width: 960px;
+    background: white;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid grey;
+}
+
+.contact-side{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.contact-side p,
+.contact-side a img{
+    padding-right: 20px;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 10px 20px;
+    background: blue;
+    /* border-left: 1px solid white; */
+}
+
+/* nav ul li:nth-child(1){
+    border: none;
+} */
+
+nav ul li:nth-child(even){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul .active{
+    background: grey;
+}
+
+nav ul .active a{
+    color: red;
+}
+
+nav ul li:hover{
+    background: grey;
+}
+
+nav ul li:hover a{
+    color: blue;
+}
+
+.hero-section img{
+    width: 100%;
+}
+
+.content-section{
+    display: flex;
+    padding: 30px;
+}
+
+.content-section .text-section{
+    width: 70%;
+    padding: 20px;
+}
+
+.service-list{
+    width: 30%;
+    padding: 20px;
+    border-left: 1px dotted black;
+}
+
+.text-section h1,
+.service-list h2{
+    color: blue;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.text-section p{
+    padding-bottom: 15px;
+}
+
+.text-section h6{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.text-section ul{
+    padding-bottom: 10px;
+}
+
+.service-list ul{
+    list-style: none;
+}
+
+.service-list li a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.service-list li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 10px;
+}
+footer p{
+    color: white;
+}
+
+table,th,td{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
+
+.wrapper{
+    display: flex;
+}

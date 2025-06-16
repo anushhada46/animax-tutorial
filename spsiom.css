@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: grey;
+}
+
+.container{
+    width: 960px;
+    background: white;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid red;
+}
+
+.contact{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.contact p{
+    color: rgb(5, 131, 173);
+    font-size: 18px;
+}
+
+.contact p a{
+    color: rgb(5, 131, 173);
+    text-decoration: none;
+}
+
+.contact p a:hover{
+    color: maroon;
+    text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    font-size: 25px;
+    padding: 20px 30px;
+    position: fixed;
+    width: 100%;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.afford{
+    background: lightgray;
+}
+
+.afford i{
+    color: aqua;
+}
+.universal{
+    padding: 120px 80px;
+    border-bottom: 10px solid;
+}
+.universal i{
+    font-size: 90px;
+    padding-right: 20px;
+}
+
+.universal h2{
+    display: inline-block;
+    padding-bottom: 40px;
+    font-size: 90px;
+}
+
+.universal .top-para{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.universal .top-bottom{
+    font-weight: light;
+    font-size: 25px;
+}
+
+.website{
+    background: aqua;
+}
+
+.website i{
+    color: white;
+}
+
+.app{
+    background: url("./images/bg.webp");
+    color: white;
+    border-bottom: 10px solid black;
+}
+
+.youtube{
+    color: white;
+    background: darkgray;
+}
+
+.wrapper-video{
+    display: flex;
+    justify-content: space-evenly;
+}
